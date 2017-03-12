@@ -8,5 +8,7 @@
 *.log
 *.obj
 *.pdb
-*.opendb
 *.idb
+*.dll
+*.opendb
+PlayStation/packages
