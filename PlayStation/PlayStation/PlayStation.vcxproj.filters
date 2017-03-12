@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="libCurl">
+      <UniqueIdentifier>{1a83c79b-5ea6-4172-9b7e-de4aa4823372}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -23,6 +26,33 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\curl.h">
+      <Filter>libCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\curlbuild.h">
+      <Filter>libCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\curlrules.h">
+      <Filter>libCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\curlver.h">
+      <Filter>libCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\easy.h">
+      <Filter>libCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\mprintf.h">
+      <Filter>libCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\multi.h">
+      <Filter>libCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\stdcheaders.h">
+      <Filter>libCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternalLibraries\libCurl\include\curl\typecheck-gcc.h">
+      <Filter>libCurl</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
